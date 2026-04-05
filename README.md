@@ -1,13 +1,26 @@
 # Solar System Dashboard
+A data visualisation and analysis dashboard built with Python, NumPy, and Matplotlib. Displays key data across all 8 planets in the Solar System and calculates statistics using numerical computing.
 
-A data visualisation dashboard built with Python and Matplotlib 
-showing key data across all 8 planets in the Solar System.
+# Dashboard Charts
+Distance from the Sun — bar chart comparing planetary distances in km
+Number of Moons — bar chart showing moon counts across all planets
+Length of Day — log scale bar chart showing day duration in hours (includes annotation highlighting Venus's remarkably slow rotation)
 
-## Charts included
-- Distance from the Sun
-- Number of moons
-- Length of day (hours)
+# Statistics Report
+The dashboard also prints a statistical summary of the Solar System including:
 
-## Built with
-- Python
-- Matplotlib
+- Average distance from the Sun across all 8 planets
+- Total number of moons in the Solar System
+- Shortest and longest day length
+
+# Built With
+
+- Python 3
+- NumPy — 2D arrays and statistical functions for planetary data
+- Matplotlib — data visualisation and subplots
+
+# How to Run
+
+- Make sure you have Python and Anaconda installed
+- Open the notebook in Jupyter Notebook
+- Run all cells with Shift + Enter
